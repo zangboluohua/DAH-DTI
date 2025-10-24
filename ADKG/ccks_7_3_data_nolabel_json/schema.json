@@ -1,0 +1,43 @@
+{
+    "entity_type": [
+        "Virus",
+        "Drug",
+        "Protein"
+    ],
+    "attrs": {
+        "Virus": [
+            "lineage",
+            "host"
+        ],
+        "Drug": [
+            "drug_type",
+            "drug_category"
+        ],
+        "Protein": [
+            "protein_type",
+            "cellular_location"
+        ]
+    },
+    "relationships": [
+        [
+            "Drug",
+            "effect",
+            "Virus"
+        ],
+        [
+            "Protein",
+            "interaction",
+            "Protein"
+        ],
+        [
+            "Virus",
+            "produce",
+            "Protein"
+        ],
+        [
+            "Protein",
+            "binding",
+            "Protein"
+        ]
+    ]
+}
