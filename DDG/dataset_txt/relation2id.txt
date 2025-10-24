@@ -1,0 +1,8 @@
+7
+treats 0
+associated_with 1
+disease_mapped_to_gene 2
+targets 3
+interacts_with 4
+annotates 5
+pathway_has_gene_element 6
